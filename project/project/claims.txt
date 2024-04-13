@@ -1,0 +1,72 @@
+/*****************************************************************************
+TITLE: Claims																																
+AUTHOR:	HARSH Dahiya
+ROLL NO: 2101CS30
+Declaration of Authorship
+This txt file, claims.txt, is part of the miniproject of CS209/CS210 at the 
+Department of Computer Science and Engg, IIT Patna. 
+*****************************************************************************/
+
+Files:
+==========
+*All the files I submitted, asm.cpp and emu.cpp and claims.txt, have my name and student id at the start, along with a declaration of authorship.
+
+The evidence for Assembler, including the output files from the tested examples are there.Also the evidence of emulator is present.
+
+*Both of my C++ programs did not show any errors or warnings when I compiled them with
+g++ -pedantic and g++ -pedantic -W -Wall -Wpointer-arith -Wwrite-strings standard
+
+*Two programs are compilable with g++ asm.cpp -o asm and g++ emu.cpp -o emu.
+
+
+=============================
+Program format and structure:
+=============================
+1. The assembler:
+
+	EXECUTION FORMAT: ./asm.exe filename.asm
+
+    * with two data structures to store labels and a mnemonic table with expected operands, respectively.
+    * uses a single routine for both passes.
+    * detects label errors.
+    * Consistent and sensible formatting with sensible program structure. 
+    * sensible variable, function & type names with explanatory comments.
+		* advanced listing file.
+		* assembles test programs.
+
+2. The emulator (if you are submitting) :
+
+	EXECUTION FORMAT: ./emu.exe filename.o
+
+		* with three data structures to store respectively memory, mnemonic table with expected operands
+		  and a linked list structure word.
+    * loads object file, 
+    * by giving the instructions like "-before/-after", the program can produce a memory dump before/after execution.
+    * by giving the instruction "-trace", the program prints the result of the program executed.
+    * detects errant programs.
+
+
+=============================
+Testing:
+=============================
+
+1. The assembler:
+
+I have tested. The test1 and test2
+
+The others were tested without any errors detected and produced three output files, a listing file, 
+error log file and machine-readable object file for each example. 
+
+
+2. The emulator :
+  
+ I have tested bubble sort with it and it was running without any errors.
+
+
+My zip files will be showing file as a.out as it was run in MacBook with apple iOS. But in windows it will run as a.exe
+
+
+
+
+
+
